@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"; // Ensure Tailwind styles are applied
+import "./index.css"; 
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
           📝 Task Manager
         </h1>
 
-        {/* Task Form */}
+       
         <form className="mb-6 space-y-4">
           <input
             type="text"
@@ -28,7 +28,7 @@ function App() {
           </button>
         </form>
 
-        {/* Task List Placeholder */}
+       
         <div className="space-y-2">
           <div className="p-4 border rounded-md flex justify-between items-center">
             <div>
