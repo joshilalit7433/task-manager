@@ -9,7 +9,7 @@ function App() {
     taskDescription: "",
   });
   const [id, setId] = useState(null);
-  const API = "http://localhost:5000/tasks";
+  const API = "/tasks";
 
   const fetchTasks = async () => {
     try {
