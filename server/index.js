@@ -46,6 +46,7 @@ app.put("/tasks/:id", (req, res) => {
 });
 
 app.delete("/tasks/:id", (req, res) => {
+  const { id } = req.params;
   tasks = tasks.filter((t) => t.id !== id);
   res.status(204).send();
 });
